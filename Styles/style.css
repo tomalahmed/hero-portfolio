@@ -5,16 +5,16 @@
 }
 
 body{
-    background-color: aqua;
+    background-color: rgb(92, 224, 224);
 }
 
 .logo{
     font-size: 24px;
     font-weight: 700;
     color: #333333;
+    cursor: pointer;
 }
 .logo h2{
-    font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: bold;
@@ -23,15 +23,13 @@ body{
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
-
 header {
-    background-color: #ffffff;
-    padding: 20px;
+    background-color: #fbf1f1;
+    padding: 50px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -39,6 +37,35 @@ nav{
     display: flex;
     width: 71%;
     max-width: 1140px;
-    margin: 1px auto;
+    margin: 0px auto;
     justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+
+}
+
+nav .menu a{
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.btn{
+    padding: 18px 35px;
+    font-size: 20px;
+    background-color: rgb(92, 224, 224);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
 }
